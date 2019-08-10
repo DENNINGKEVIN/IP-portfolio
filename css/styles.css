@@ -4,13 +4,24 @@
   box-sizing: content-box;
 }
 
+body{
+  background-color: #D55437;
+}
+
+.nav-bar{
+  padding-top: 10px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 20vh;
   background-color: #55E7E5;
-
+  border-radius: 15px;
 }
 
 .nav-items{
@@ -23,4 +34,5 @@ nav{
 
 .logo img{
   height: 19vh;
+  border-radius: 50%;
 }
