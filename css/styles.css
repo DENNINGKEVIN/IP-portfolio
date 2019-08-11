@@ -11,20 +11,12 @@ body{
   background-repeat: no-repeat;
 }
 
-.nav-bar{
-  padding-top: 10px;
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 20vh;
   background-color: #69DAE9;
-  border-radius: 15px;
 }
 
 .nav-items{
@@ -60,7 +52,7 @@ nav{
 
 .about{
   margin-top: 10px;
-  width: 80%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
   background-color: #049CC4;
@@ -88,4 +80,36 @@ nav{
 
 #experience{
   background-color: #69DAE9;
+}
+
+.projects{
+  width: 80%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  flex-wrap: no-wrap;
+}
+
+.container div {
+  width: 50%;
+  height: 200px;
+}
+
+.picture {
+  background: #E86052;
+  margin: 2px;
+  border-radius: 15px;
+}
+
+.text {
+  background: #69DAE9;
+  margin: 2px;
+  border-radius: 15px;
 }
