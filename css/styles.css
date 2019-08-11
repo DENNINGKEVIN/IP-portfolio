@@ -24,7 +24,26 @@ nav{
   justify-content: space-around;
   list-style: none;
   align-items: center;
-  width: 30%;
+  width: 20%;
+}
+
+.nav-items a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-items button{
+  background-color: inherit;
+  height: 5vh;
+  width: 20vh;;
+  padding: 2px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.nav-items button:hover{
+  background-color: #E86052;
+  border-radius: 5px;
 }
 
 
@@ -83,7 +102,8 @@ nav{
 }
 
 .projects{
-  width: 80%;
+  margin-top: 10px;
+  width: 95%;
   display: flex;
   margin-left: auto;
   margin-right: auto;
