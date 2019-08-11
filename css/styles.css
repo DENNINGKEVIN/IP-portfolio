@@ -8,7 +8,6 @@ body{
   background-image: url(../images/background.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  color: #1D1B1B;
 }
 
 .nav-bar{
@@ -23,7 +22,7 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 20vh;
-  background-color: #55E7E5;
+  background-color: #69DAE9;
   border-radius: 15px;
 }
 
@@ -60,10 +59,19 @@ nav{
 
 .about{
   margin-top: 10px;
-  display: flex;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  background-color: #049CC4;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.content{
+  display: flex;
+  padding: 0px;
 }
 
 .about div{
@@ -80,6 +88,6 @@ nav{
 }
 
 #experience{
-  background-color: #55E7E5;
+  background-color: #69DAE9;
   border-radius: 15px;
 }
