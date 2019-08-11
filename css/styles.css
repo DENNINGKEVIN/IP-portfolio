@@ -46,9 +46,40 @@ nav{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #CC5338;
+  background-color: #E86052;
   border-radius: 15px;
   padding: 10px;
   text-align: center;
   color: white;
+  display: block;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.about{
+  margin-top: 10px;
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about div{
+  padding: 3%;
+  border-radius: 5px;
+  text-align: right;
+  color: white;
+  margin: 5px;
+}
+
+#education{
+  background-color: #E86052;
+  border-radius: 15px;
+}
+
+#experience{
+  background-color: #55E7E5;
+  border-radius: 15px;
 }
