@@ -108,6 +108,7 @@ nav{
 
 
 #education li{
+  margin-left: 250px;;
   list-style: decimal;
   text-align: left;
 }
