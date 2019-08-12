@@ -6,7 +6,7 @@
 }
 
 body{
-  background-image: url(../images/background.jpeg);
+  /* background-image: url(../images/background.jpeg); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -81,6 +81,7 @@ nav{
   color: white;
 }
 
+
 .content{
   display: flex;
   padding: 0px;
@@ -94,11 +95,25 @@ nav{
 }
 
 #education{
+  justify-content: space-around;
   background-color: #E86052;
 }
 
 #experience{
+  padding-left: 15px;
   background-color: #69DAE9;
+  color: black;
+}
+
+
+
+#education li{
+  list-style: decimal;
+  text-align: left;
+}
+
+#experience li{
+  text-align: left;
 }
 
 .projects{
@@ -113,7 +128,6 @@ nav{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 100vh;
   flex-wrap: no-wrap;
 }
 
@@ -132,4 +146,9 @@ nav{
   background: #69DAE9;
   margin: 2px;
   border-radius: 15px;
+}
+
+.contacts{
+  background-color: #69DAE9;
+  margin-top: 10px;
 }
