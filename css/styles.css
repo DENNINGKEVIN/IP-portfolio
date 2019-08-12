@@ -117,14 +117,23 @@ nav{
   text-align: left;
 }
 
-.projects{
+.my-projects{
   margin-top: 10px;
   width: 95%;
-  display: flex;
   margin-left: auto;
   margin-right: auto;
   background-color: #049CC4;
   border-radius: 15px;
+  padding: 10px;
+}
+
+.my-projects h2{
+  text-align: center;
+  color: white;
+}
+
+.projects{
+  display: flex;
   padding: 10px;
 }
 
@@ -137,19 +146,24 @@ nav{
 
 .container div {
   width: 50%;
-  height: 200px;
 }
 
 .picture {
   background: #E86052;
   margin: 2px;
   border-radius: 15px;
+  padding: 10px;
+  color: white;
+  text-align: center;
 }
 
 .text {
   background: #69DAE9;
   margin: 2px;
   border-radius: 15px;
+  color: black;
+  padding: 10px;
+  text-align: center;
 }
 
 .contacts{
